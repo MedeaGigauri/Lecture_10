@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.products{
+    width: 1170px;
+    height: 108px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.products-this-month{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    column-gap: 20px;
+    height: 40px;
+    margin-bottom: 15px;
+
+}
+.products-this-month h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #DB4444;
+}
+.best-selling-products{
+    width: 1170px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 50px;
+}
+.best-selling-products h1{
+font-family: "Inter", sans-serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.04em;
+text-align: left;
+color: #000000;
+}
+.view-all-btn{
+    width: 63px;
+    height: 24px;
+    padding: 16px 48px 16px 48px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #DB4444;
+    color: #FAFAFA;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 1170px;
+    height: 430px;
+    border: 2px solid blueviolet;
+}
+.product-cards{
+    width: 270px;
+    height: 250px;
+    background-color:  #F5F5F5;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.wishlist{
+    width: 34px;
+    height: 76px;
+    left: 224px;
+    top: 17px;
+    position: relative;
+}
+.product-cards-text{
+    margin-top: 190px;
+    width: 150px;
+    height: 94px;
+}
+.product-cards-text h3{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: black;
+}
+.product-cards-text h4{
+    font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color:  #DB4444;
+}
+.product-cards-text h5{
+    font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+    color: #000000;
+}
+.prices{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 5px;
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
